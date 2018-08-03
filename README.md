@@ -15,4 +15,8 @@ d3.js based polarplot with zoom capability
         <button id="zoom_out">-</button>
         <div id="div_svg"></div>
 
+![Image](polarPlotBeforeZoom.jpeg)
+
+![Image](polarPlotAfterZoom.jpeg)
+
 [Sample project](https://codepen.io/bsrvasulu/pen/rrddbZ)
