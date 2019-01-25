@@ -1,0 +1,96 @@
+.axis {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+.point {
+  mix-blend-mode: multiply;
+}
+
+.frame {
+    fill: none;
+    stroke: #000;
+  }
+  
+  .axis text {
+    font: 10px sans-serif;
+  }
+  
+.axis line {
+  fill: none;
+  stroke: #ebebeb;
+}
+  
+.axis circle {
+  fill: none;
+  stroke: #aaa;
+  
+  //stroke-dasharray: 4;
+}
+ .axis circlePoint {
+  fill: none;
+  stroke: #aaa;
+  
+  //stroke-dasharray: 4;
+} 
+  .axis:last-of-type circle {
+    //stroke: #333;
+    //stroke-dasharray: none;
+  }
+  .axis:last-of-type circlePoint {
+    //stroke: #333;
+    //stroke-dasharray: none;
+  }
+
+  .line {
+    fill: none;
+    stroke: orange;
+    //stroke-width: 3px;
+  }
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    /*width: 60px;					
+    height: 28px;*/					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.brushed {
+  fill: #ff3399;
+/*   stroke: #8e1b54; */
+  opacity: 1.0;
+}
+
+.redBrushed {
+  fill: red;
+/*   stroke: #8e1b54; */
+  opacity: 1.0;
+}
+
+.greenBrushed {
+  fill: green;
+/*   stroke: #8e1b54; */
+  opacity: 1.0;
+}
+
+.non_brushed {
+  fill: #404040;
+  opacity: 0.5;
+}
+
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .01;
+}
